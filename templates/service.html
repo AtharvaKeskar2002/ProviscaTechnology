@@ -1,0 +1,248 @@
+﻿{% extends "layout.html" %}
+{% block body%}	
+		<!--about-part start-->
+		<section class="about-part service-part">
+			<div class="container">
+				<div class="about-part-details text-center"> 
+					<h2>service</h2>
+					<div class="about-part-content">
+						<div class="breadcrumbs">
+							<div class="container">
+								<ol class="breadcrumb">
+								  <li><a href="index.html">home</a><span>//</span></li>
+								  <li><a href="service.html">service</a></li>
+								</ol><!--/.breadcrumb-->
+							</div><!--/.container-->
+						</div><!--/.breadcrumbs-->
+					</div><!--/.about-part-content-->
+				</div><!--/.about-part-details-->	
+			</div><!--/.container-->
+
+		</section><!--/.about-part-->
+		<!--about-part end-->
+
+		<!--service start-->
+		<section  class="service">
+				<div class="container">
+					<div class="service-details">
+						<div class="section-header text-center">
+							<h2>our services</h2>
+							<p>
+								On the mission of building digital platforms to all sectors
+							</p>
+						</div><!--/.section-header-->
+						<div class="service-content-one">
+							<div class="row">
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service1.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">Online Business Applications</a>
+											</h2>
+											<!-- Modal -->
+										<div class="modal fade" id="onlineModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+										aria-hidden="true">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">Online Business Applications</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p>What is online business app? <br> This type of software enables you to keep track and manage your company's relationships with customers, leads, or clients by allowing them all different ways to communicate on one platform. A CRM app that will help you capture, organize and analyze leads.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal -->
+											<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#onlineModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service2.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">Web Design and Development</a>
+											</h2>
+											 <!-- Modal -->
+										<div class="modal fade" id="webModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+										aria-hidden="true">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">Web Design and Development</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p> What is web design and development all about? <br> Web design and development is an umbrella term that describes the process of creating a website. Like the name suggests, it involves two major skill sets: web design and web development. Web design determines the look and feel of a website, while web development determines how it functions.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal -->
+											<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#webModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service3.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">E-Commerce Websites</a>
+											</h2>
+											 <!-- Modal -->
+										<div class="modal fade" id="EcomModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+										aria-hidden="true">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">E-Commerce Websites</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p> E-commerce Website. A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal -->
+									<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#EcomModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+							</div><!--/.row-->
+						</div><!--/.service-content-one-->
+						<div class="service-content-two">
+							<div class="row">
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service4.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">Content Management </a>
+											</h2>
+											 <!-- Modal -->
+										<div class="modal fade" id="contentModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+										aria-hidden="true">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">Content Management</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p> What is Content Management? <br> Content management (CM) is the process for collection, delivery, retrieval, governance and overall management of information in any format. The term is typically used in reference to administration of the digital content lifecycle, from creation to permanent storage or deletion.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal -->
+											<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#contentModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service5.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">Android Apps Development</a>
+											</h2>
+											 <!-- Modal -->
+										<div class="modal fade" id="androidModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+										aria-hidden="true">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">Android Apps Development</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p> What does Android app developer do? <br> An android developer designs software and applications for Android devices and the Google Play Store. This software developer creates apps used on Android phones and tablets. They often work for large organizations or directly for an app development company.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal -->
+									<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#androidModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+								<div class="col-sm-4 col-xs-12">
+									<div class="service-single text-center">
+										<div class="service-img">
+											<img src="{{ url_for('static', filename='assets/images/service/service6.png')}}" alt="image of service" />
+										</div><!--/.service-img-->
+										<div class="service-txt">
+											<h2>
+												<a href="#">iOS Apps Development</a>
+											</h2>
+											 <!-- Modal -->
+										<div class="modal fade" id="iosModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+											aria-hidden="true">
+											<div class="modal-dialog modal-lg" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle">iOS Apps Development</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														<p> What is iOS app development? <br> Apple provides tools and resources for creating iOS apps and accessories for these devices. As an iOS developer, you can program in native languages such as Swift or Objective-C or build cross-platform native applications using React Native (JavaScript) or Xamarin (C# & F#).</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- Modal -->
+											<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#iosModalLong">
+												learn more
+											</a>
+										</div><!--/.service-txt-->
+									</div><!--/.service-single-->
+								</div><!--/.col-->
+							</div><!--/.row-->
+						</div><!--/.service-content-two-->
+					</div><!--/.service-details-->
+				</div><!--/.container-->
+
+		</section><!--/.service-->
+		<!--service end-->
+
+		
+		
+{% endblock %}
